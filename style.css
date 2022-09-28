@@ -1,0 +1,241 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    margin-left:630px;
+}
+
+.box1{
+    width: 75px;
+    height:75px;
+    background-color: cadetblue;
+    display: inline-block;
+    margin-left: 40px;
+    animation: box1-anm 2s infinite 0s alternate; 
+}
+
+@keyframes box1-anm {
+    from{
+        transform: skew(-20deg);
+    }
+    to{
+        transform: skew(20deg);
+    }
+}
+
+.box2{
+    width: 75px;
+    height:75px;
+    background-color: rgb(236, 192, 198);
+    display: inline-block;
+    margin-left: 40px;
+    animation: box2-anm infinite 2s alternate 0s;
+}
+
+@keyframes box2-anm {
+    from{
+        transform: skewY(-20deg);
+    }
+    to{
+        transform: skewY(20deg);
+    }
+}
+
+.box3{
+width: 75px;
+    height:75px;
+    background-color: cadetblue;
+    display: inline-block;
+    margin-left: 40px;
+    animation: box3-anm infinite 2s 0s;
+}
+
+@keyframes box3-anm {
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.box4{
+    width: 75px;
+        height:75px;
+        background-color: cadetblue;
+        display: inline-block;
+        margin-left: 40px;
+        animation: box4-anm 2s linear 0s infinite;
+        }
+        @keyframes  box4-anm {
+            from{
+                transform: rotateX(0deg);
+            }
+            to{
+                transform: rotateX(60deg);
+            }
+            
+        }
+    .box5{
+        width: 75px;
+            height:75px;
+            background-color: brown;
+            display: inline-block;
+            margin-left: 40px;
+            animation: box5-anm infinite 2s alternate 0s;
+        }
+        @keyframes box5-anm {
+            from{
+                transform: rotateY(0deg);
+            }
+            to{
+                transform: rotateY(60deg);
+            }
+            
+        }
+        .box6{
+            width: 75px;
+                height:75px;
+                background-color: green;
+                display: inline-block;
+                margin-left: 40px;
+                animation: box6-anm infinite 2s alternate 0s;
+            }
+
+            @keyframes box6-anm {
+                from{
+                    transform: rotate(90deg);
+                }
+                to{
+                    transform: rotate(-20deg);
+                }
+                
+            }
+
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    margin-top:-80px;
+}
+
+.a2{
+    margin-top: 900px;
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+li{
+    margin-top:100px;
+}
+
+.boxgr1{
+    width: 75px;
+    height:75px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 40px;
+    transition:4s linear;
+}
+
+.boxgr1:hover{ 
+    width: 300px;
+    
+}
+
+.boxgr2{
+    width: 75px;
+    height:75px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 40px;
+    transition:4s linear;
+}
+
+.boxgr2:hover{
+    width: 300px;
+    height: 300px;
+ }
+
+.boxgr3{
+    width: 75px;
+    height:75px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 40px;
+    transition:4s linear;
+}
+
+.boxgr3:hover{ 
+    width: 300px;
+    transition-timing-function: linear;
+    
+}
+
+.boxgr4{
+    width: 75px;
+    height:75px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 40px;
+    transition:4s linear;
+}
+
+.boxgr4:hover{ 
+    width: 300px;
+    transition-timing-function: ease;
+    
+}
+
+.boxgr5{
+    width: 75px;
+    height:75px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 40px;
+    transition:4s linear;
+}
+
+.boxgr5:hover{ 
+    width: 300px;
+    transition-timing-function: ease-in;
+    
+}
+
+.boxgr6{
+    width: 75px;
+    height:75px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 40px;
+    transition:4s linear;
+}
+
+.boxgr6:hover{ 
+    width: 300px;
+    transition-timing-function: ease-out;
+    
+}
+
+.boxgr7{
+    width: 75px;
+    height:75px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 40px;
+    transition:4s linear;
+}
+
+.boxgr7:hover{ 
+    width: 300px;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.apage2{
+    margin-top: 900px;
+    font-size: 25px;
+    margin-left: 765px;
+    font-weight: bold;
+}
